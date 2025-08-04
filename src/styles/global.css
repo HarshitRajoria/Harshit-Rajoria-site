@@ -2,48 +2,51 @@
 /* Add your own styles below these basics */
 
 body {
-    margin: 40px auto;
-    max-width: 1050px;
-    line-height: 1.6;
-    font-size: 18px;
-    color: #444;
-    padding: 0 10px;
-    font-family: Arial, sans-serif;
+  margin: 40px auto;
+  max-width: 1050px;
+  line-height: 1.6;
+  font-size: 18px;
+  color: #444;
+  padding: 0 10px;
+  font-family: Arial, sans-serif;
+  background-color: aqua;
 }
 
-h1, h2, h3 {
-    line-height: 1.2;
+h1,
+h2,
+h3 {
+  line-height: 1.2;
 }
 
 /* Simple navigation */
 nav ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 20px;
+  display: inline;
+  margin-right: 20px;
 }
 
 nav a {
-    text-decoration: none;
-    color: #444;
+  text-decoration: none;
+  color: #444;
 }
 
 nav a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* Basic button style */
 .btn {
-    display: inline-block;
-    background: #444;
-    color: white;
-    padding: 8px 16px;
-    text-decoration: none;
+  display: inline-block;
+  background: #444;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
 }
 
 .btn:hover {
-    background: #666;
+  background: #666;
 }
